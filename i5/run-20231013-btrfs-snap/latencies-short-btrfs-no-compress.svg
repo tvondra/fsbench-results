@@ -11,7 +11,7 @@
 
 <g id="gnuplot_canvas">
 
-<rect x="0" y="0" width="600" height="1200" fill="none"/>
+<rect x="0" y="0" width="600" height="1200" fill="#ffffff"/>
 <defs>
 
 	<circle id='gpDot' r='0.5' stroke-width='0.5' stroke='currentColor'/>
@@ -31,7 +31,7 @@
 	<path id='gpPt13' stroke-width='0.222' stroke='currentColor' d='M0,1.330 L1.265,0.411 L0.782,-1.067 L-0.782,-1.076 L-1.265,0.411 z'/>
 	<use xlink:href='#gpPt13' id='gpPt14' fill='currentColor' stroke='none'/>
 	<filter id='textbox' filterUnits='objectBoundingBox' x='0' y='0' height='1' width='1'>
-	  <feFlood flood-color='white' flood-opacity='1' result='bgnd'/>
+	  <feFlood flood-color='#FFFFFF' flood-opacity='1' result='bgnd'/>
 	  <feComposite in='SourceGraphic' in2='bgnd' operator='atop'/>
 	</filter>
 	<filter id='greybox' filterUnits='objectBoundingBox' x='0' y='0' height='1' width='1'>
@@ -39,7 +39,7 @@
 	  <feComposite in='SourceGraphic' in2='grey' operator='atop'/>
 	</filter>
 </defs>
-<g fill="none" color="white" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+<g fill="none" color="#FFFFFF" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<path stroke='black'  d='M79.70,264.00 L88.70,264.00 M574.82,264.00 L565.82,264.00  '/>	<g transform="translate(71.31,267.90)" stroke="none" fill="black" font-family="Helvetica" font-size="12.00"  text-anchor="end">
@@ -353,7 +353,7 @@
 		L551.71,248.97 L553.36,247.97 L555.02,248.07 L556.67,247.69 L558.32,250.36 L559.97,249.88 L561.62,248.93 L563.27,248.56
 		L564.92,248.99 L566.57,247.58 L568.22,247.75 L569.87,248.98 L571.52,248.35 L573.17,248.46 L574.82,248.44  '/></g>
 	</g>
-<g fill="none" color="white" stroke="rgb(240, 228,  66)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
+<g fill="none" color="#FFFFFF" stroke="rgb(240, 228,  66)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
@@ -669,7 +669,7 @@
 		L553.36,548.79 L555.02,549.70 L556.67,549.41 L558.32,548.81 L559.97,549.43 L561.62,548.86 L563.27,548.63 L564.92,548.75
 		L566.57,547.68 L568.22,547.77 L569.87,547.83 L571.52,549.44 L573.17,548.32 L574.82,549.28  '/></g>
 	</g>
-<g fill="none" color="white" stroke="rgb(240, 228,  66)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
+<g fill="none" color="#FFFFFF" stroke="rgb(240, 228,  66)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
@@ -1005,7 +1005,7 @@
 		L551.71,846.08 L553.36,844.96 L555.02,844.38 L556.67,846.17 L558.32,844.59 L559.97,847.15 L561.62,845.01 L563.27,845.37
 		L564.92,846.63 L566.57,845.50 L568.22,844.69 L569.87,845.73 L571.52,845.20 L573.17,847.62 L574.82,844.46  '/></g>
 	</g>
-<g fill="none" color="white" stroke="rgb(240, 228,  66)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
+<g fill="none" color="#FFFFFF" stroke="rgb(240, 228,  66)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
@@ -1314,7 +1314,7 @@
 		L551.32,1103.67 L553.00,1103.87 L554.68,1104.07 L556.36,1105.89 L558.04,1104.17 L559.71,1109.00 L561.39,1103.48 L563.07,1104.57
 		L564.75,1104.27 L566.43,1106.83 L568.11,1102.99 L569.78,1103.38 L571.46,1104.57 L573.14,1103.67 L574.82,1104.97  '/></g>
 	</g>
-<g fill="none" color="white" stroke="rgb(240, 228,  66)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
+<g fill="none" color="#FFFFFF" stroke="rgb(240, 228,  66)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>

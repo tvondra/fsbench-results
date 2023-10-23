@@ -11,7 +11,7 @@
 
 <g id="gnuplot_canvas">
 
-<rect x="0" y="0" width="2400" height="1200" fill="none"/>
+<rect x="0" y="0" width="2400" height="1200" fill="#ffffff"/>
 <defs>
 
 	<circle id='gpDot' r='0.5' stroke-width='0.5' stroke='currentColor'/>
@@ -31,7 +31,7 @@
 	<path id='gpPt13' stroke-width='0.222' stroke='currentColor' d='M0,1.330 L1.265,0.411 L0.782,-1.067 L-0.782,-1.076 L-1.265,0.411 z'/>
 	<use xlink:href='#gpPt13' id='gpPt14' fill='currentColor' stroke='none'/>
 	<filter id='textbox' filterUnits='objectBoundingBox' x='0' y='0' height='1' width='1'>
-	  <feFlood flood-color='white' flood-opacity='1' result='bgnd'/>
+	  <feFlood flood-color='#FFFFFF' flood-opacity='1' result='bgnd'/>
 	  <feComposite in='SourceGraphic' in2='bgnd' operator='atop'/>
 	</filter>
 	<filter id='greybox' filterUnits='objectBoundingBox' x='0' y='0' height='1' width='1'>
@@ -39,7 +39,7 @@
 	  <feComposite in='SourceGraphic' in2='grey' operator='atop'/>
 	</filter>
 </defs>
-<g fill="none" color="white" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+<g fill="none" color="#FFFFFF" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<path stroke='black'  d='M71.31,264.00 L80.31,264.00 M574.82,264.00 L565.82,264.00  '/>	<g transform="translate(62.92,267.90)" stroke="none" fill="black" font-family="Helvetica" font-size="12.00"  text-anchor="end">
@@ -214,7 +214,7 @@
 		L563.42,237.69 L565.13,237.31 L566.83,237.04 L568.54,236.54 L570.24,236.25 L571.94,236.32 L573.65,236.41 L574.82,237.23
 		 '/></g>
 	</g>
-<g fill="none" color="white" stroke="rgb(204,   0,   0)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
+<g fill="none" color="#FFFFFF" stroke="rgb(204,   0,   0)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
@@ -402,7 +402,7 @@
 		L1163.39,237.23 L1165.09,235.32 L1166.79,233.34 L1168.50,231.34 L1170.20,229.56 L1171.90,229.06 L1173.61,228.80 L1174.82,228.64
 		 '/></g>
 	</g>
-<g fill="none" color="white" stroke="rgb(204,   0,   0)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
+<g fill="none" color="#FFFFFF" stroke="rgb(204,   0,   0)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
@@ -590,7 +590,7 @@
 		L1764.38,173.64 L1766.09,173.44 L1767.80,172.92 L1769.51,170.38 L1771.21,170.39 L1772.92,169.96 L1774.63,169.56 L1774.82,168.93
 		 '/></g>
 	</g>
-<g fill="none" color="white" stroke="rgb(204,   0,   0)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
+<g fill="none" color="#FFFFFF" stroke="rgb(204,   0,   0)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
@@ -778,7 +778,7 @@
 		L2364.33,183.63 L2366.03,183.76 L2367.74,182.73 L2369.45,184.07 L2371.15,184.43 L2372.86,183.74 L2374.56,184.57 L2374.82,184.52
 		 '/></g>
 	</g>
-<g fill="none" color="white" stroke="rgb(204,   0,   0)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
+<g fill="none" color="#FFFFFF" stroke="rgb(204,   0,   0)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
@@ -946,7 +946,7 @@
 		L562.93,547.88 L564.63,548.08 L566.33,547.77 L568.03,548.00 L569.73,549.18 L571.43,549.31 L573.13,547.56 L574.82,548.10
 		 '/></g>
 	</g>
-<g fill="none" color="white" stroke="rgb(204,   0,   0)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
+<g fill="none" color="#FFFFFF" stroke="rgb(204,   0,   0)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
@@ -1114,7 +1114,7 @@
 		L1163.00,555.67 L1164.70,554.24 L1166.40,553.89 L1168.10,552.84 L1169.80,551.13 L1171.50,552.82 L1173.20,552.43 L1174.82,551.09
 		 '/></g>
 	</g>
-<g fill="none" color="white" stroke="rgb(204,   0,   0)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
+<g fill="none" color="#FFFFFF" stroke="rgb(204,   0,   0)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
@@ -1282,7 +1282,7 @@
 		L1762.95,522.27 L1764.65,522.63 L1766.35,522.06 L1768.06,523.08 L1769.76,523.17 L1771.46,524.47 L1773.16,524.62 L1774.82,526.56
 		 '/></g>
 	</g>
-<g fill="none" color="white" stroke="rgb(204,   0,   0)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
+<g fill="none" color="#FFFFFF" stroke="rgb(204,   0,   0)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
@@ -1450,7 +1450,7 @@
 		L2362.98,531.00 L2364.68,531.07 L2366.38,530.98 L2368.08,529.88 L2369.79,530.19 L2371.49,529.46 L2373.19,529.31 L2374.82,528.83
 		 '/></g>
 	</g>
-<g fill="none" color="white" stroke="rgb(204,   0,   0)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
+<g fill="none" color="#FFFFFF" stroke="rgb(204,   0,   0)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
@@ -1633,7 +1633,7 @@
 		L562.86,790.54 L564.59,793.07 L566.32,788.26 L568.05,792.32 L569.78,794.14 L571.51,795.95 L573.24,797.77 L574.82,797.86
 		 '/></g>
 	</g>
-<g fill="none" color="white" stroke="rgb(204,   0,   0)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
+<g fill="none" color="#FFFFFF" stroke="rgb(204,   0,   0)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
@@ -1816,7 +1816,7 @@
 		L1162.75,833.21 L1164.48,838.90 L1166.21,839.88 L1167.93,842.27 L1169.66,839.37 L1171.39,839.97 L1173.12,841.39 L1174.82,843.44
 		 '/></g>
 	</g>
-<g fill="none" color="white" stroke="rgb(204,   0,   0)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
+<g fill="none" color="#FFFFFF" stroke="rgb(204,   0,   0)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
@@ -1999,7 +1999,7 @@
 		L1762.80,838.15 L1764.53,840.08 L1766.26,840.61 L1767.99,839.50 L1769.72,838.94 L1771.44,837.69 L1773.18,837.16 L1774.82,836.18
 		 '/></g>
 	</g>
-<g fill="none" color="white" stroke="rgb(204,   0,   0)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
+<g fill="none" color="#FFFFFF" stroke="rgb(204,   0,   0)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
@@ -2182,7 +2182,7 @@
 		L2362.68,807.85 L2364.41,807.85 L2366.14,806.62 L2367.87,808.00 L2369.60,808.49 L2371.33,807.78 L2373.06,806.58 L2374.79,807.93
 		L2374.82,807.94  '/></g>
 	</g>
-<g fill="none" color="white" stroke="rgb(204,   0,   0)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
+<g fill="none" color="#FFFFFF" stroke="rgb(204,   0,   0)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
@@ -2358,7 +2358,7 @@
 		L552.24,1068.91 L553.92,1066.92 L555.60,1067.06 L557.28,1066.36 L558.97,1066.85 L560.65,1067.66 L562.33,1068.11 L564.01,1068.49
 		L565.69,1069.66 L567.37,1070.33 L569.05,1071.18 L570.74,1073.19 L572.42,1073.30 L574.11,1074.06 L574.82,1074.12  '/></g>
 	</g>
-<g fill="none" color="white" stroke="rgb(204,   0,   0)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
+<g fill="none" color="#FFFFFF" stroke="rgb(204,   0,   0)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
@@ -2534,7 +2534,7 @@
 		L1152.29,1072.54 L1153.97,1072.57 L1155.66,1072.48 L1157.34,1072.41 L1159.02,1072.39 L1160.70,1072.31 L1162.38,1072.22 L1164.06,1072.06
 		L1165.74,1072.14 L1167.43,1072.12 L1169.11,1072.13 L1170.79,1072.24 L1172.47,1072.21 L1174.16,1072.33 L1174.82,1072.36  '/></g>
 	</g>
-<g fill="none" color="white" stroke="rgb(204,   0,   0)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
+<g fill="none" color="#FFFFFF" stroke="rgb(204,   0,   0)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
@@ -2710,7 +2710,7 @@
 		L1751.87,1059.25 L1753.55,1059.23 L1755.23,1059.17 L1756.91,1059.11 L1758.59,1058.88 L1760.27,1058.86 L1761.95,1058.99 L1763.63,1059.00
 		L1765.32,1061.90 L1767.00,1068.68 L1768.68,1068.58 L1770.36,1068.58 L1772.04,1068.60 L1773.72,1068.60 L1774.82,1068.62  '/></g>
 	</g>
-<g fill="none" color="white" stroke="rgb(204,   0,   0)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
+<g fill="none" color="#FFFFFF" stroke="rgb(204,   0,   0)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
@@ -2886,7 +2886,7 @@
 		L2351.99,1060.47 L2353.67,1060.61 L2355.36,1061.56 L2357.04,1068.46 L2358.72,1069.92 L2360.40,1069.92 L2362.08,1069.91 L2363.76,1069.70
 		L2365.44,1069.50 L2367.12,1069.48 L2368.81,1069.47 L2370.49,1069.29 L2372.17,1069.32 L2373.85,1069.30 L2374.82,1069.32  '/></g>
 	</g>
-<g fill="none" color="white" stroke="rgb(204,   0,   0)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
+<g fill="none" color="#FFFFFF" stroke="rgb(204,   0,   0)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>

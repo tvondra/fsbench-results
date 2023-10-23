@@ -1,4 +1,4 @@
-set terminal svg size 600,1200 font 'Helvetica,12'
+set terminal svg size 600,1200 enhanced background rgb 'white' font 'Helvetica,12'
 set output 'tps-short-btrfs.svg'
 
 set title "tps-short" font 'Helvetica,24'

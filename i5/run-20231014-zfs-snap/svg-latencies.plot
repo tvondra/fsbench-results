@@ -1,4 +1,4 @@
-set terminal svg size 1800,1200 font 'Helvetica,12'
+set terminal svg size 1800,1200 enhanced background rgb 'white' font 'Helvetica,12'
 set output 'latencies.svg'
 
 set title "latencies" font 'Helvetica,24'
