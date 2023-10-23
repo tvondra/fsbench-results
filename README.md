@@ -1,9 +1,10 @@
 i5 / run-20231008-first-run
 =========================
+tps: [eps](i5/run-20231008-first-run/tps.eps) [svg](i5/run-20231008-first-run/tps.svg)
+![i5 / run-20231008-first-run](i5/run-20231008-first-run/tps.svg)
 
-| tps: [eps](i5/run-20231008-first-run/tps.eps) [svg](i5/run-20231008-first-run/tps.svg) | latencies: [eps](i5/run-20231008-first-run/latencies.eps) [svg](i5/run-20231008-first-run/latencies.svg) |
-|---|---|
-| ![i5 / run-20231008-first-run](i5/run-20231008-first-run/tps.svg) | ![i5 / run-20231008-first-run](i5/run-20231008-first-run/latencies.svg) |
+latencies: [eps](i5/run-20231008-first-run/latencies.eps) [svg](i5/run-20231008-first-run/latencies.svg)
+![i5 / run-20231008-first-run](i5/run-20231008-first-run/latencies.svg)
 
 | | btrfs | btrfs-no-compress | ext4 | xfs | zfs | zfs-no-compress | zfs-no-fpw |
 |---|---|---|---|---|---|---|---|
@@ -12,10 +13,11 @@ i5 / run-20231008-first-run
 
 i5 / run-20231011-lvm
 =========================
+tps: [eps](i5/run-20231011-lvm/tps.eps) [svg](i5/run-20231011-lvm/tps.svg)
+![i5 / run-20231011-lvm](i5/run-20231011-lvm/tps.svg)
 
-| tps: [eps](i5/run-20231011-lvm/tps.eps) [svg](i5/run-20231011-lvm/tps.svg) | latencies: [eps](i5/run-20231011-lvm/latencies.eps) [svg](i5/run-20231011-lvm/latencies.svg) |
-|---|---|
-| ![i5 / run-20231011-lvm](i5/run-20231011-lvm/tps.svg) | ![i5 / run-20231011-lvm](i5/run-20231011-lvm/latencies.svg) |
+latencies: [eps](i5/run-20231011-lvm/latencies.eps) [svg](i5/run-20231011-lvm/latencies.svg)
+![i5 / run-20231011-lvm](i5/run-20231011-lvm/latencies.svg)
 
 | | ext4 | xfs |
 |---|---|---|
@@ -24,10 +26,11 @@ i5 / run-20231011-lvm
 
 i5 / run-20231012-lvm-snap
 =========================
+tps: [eps](i5/run-20231012-lvm-snap/tps.eps) [svg](i5/run-20231012-lvm-snap/tps.svg)
+![i5 / run-20231012-lvm-snap](i5/run-20231012-lvm-snap/tps.svg)
 
-| tps: [eps](i5/run-20231012-lvm-snap/tps.eps) [svg](i5/run-20231012-lvm-snap/tps.svg) | latencies: [eps](i5/run-20231012-lvm-snap/latencies.eps) [svg](i5/run-20231012-lvm-snap/latencies.svg) |
-|---|---|
-| ![i5 / run-20231012-lvm-snap](i5/run-20231012-lvm-snap/tps.svg) | ![i5 / run-20231012-lvm-snap](i5/run-20231012-lvm-snap/latencies.svg) |
+latencies: [eps](i5/run-20231012-lvm-snap/latencies.eps) [svg](i5/run-20231012-lvm-snap/latencies.svg)
+![i5 / run-20231012-lvm-snap](i5/run-20231012-lvm-snap/latencies.svg)
 
 | | btrfs | btrfs-no-compress | ext4 | xfs |
 |---|---|---|---|---|
@@ -36,10 +39,11 @@ i5 / run-20231012-lvm-snap
 
 i5 / run-20231013-btrfs-snap
 =========================
+tps: [eps](i5/run-20231013-btrfs-snap/tps.eps) [svg](i5/run-20231013-btrfs-snap/tps.svg)
+![i5 / run-20231013-btrfs-snap](i5/run-20231013-btrfs-snap/tps.svg)
 
-| tps: [eps](i5/run-20231013-btrfs-snap/tps.eps) [svg](i5/run-20231013-btrfs-snap/tps.svg) | latencies: [eps](i5/run-20231013-btrfs-snap/latencies.eps) [svg](i5/run-20231013-btrfs-snap/latencies.svg) |
-|---|---|
-| ![i5 / run-20231013-btrfs-snap](i5/run-20231013-btrfs-snap/tps.svg) | ![i5 / run-20231013-btrfs-snap](i5/run-20231013-btrfs-snap/latencies.svg) |
+latencies: [eps](i5/run-20231013-btrfs-snap/latencies.eps) [svg](i5/run-20231013-btrfs-snap/latencies.svg)
+![i5 / run-20231013-btrfs-snap](i5/run-20231013-btrfs-snap/latencies.svg)
 
 | | btrfs | btrfs-no-compress |
 |---|---|---|
@@ -48,10 +52,11 @@ i5 / run-20231013-btrfs-snap
 
 i5 / run-20231014-zfs-snap
 =========================
+tps: [eps](i5/run-20231014-zfs-snap/tps.eps) [svg](i5/run-20231014-zfs-snap/tps.svg)
+![i5 / run-20231014-zfs-snap](i5/run-20231014-zfs-snap/tps.svg)
 
-| tps: [eps](i5/run-20231014-zfs-snap/tps.eps) [svg](i5/run-20231014-zfs-snap/tps.svg) | latencies: [eps](i5/run-20231014-zfs-snap/latencies.eps) [svg](i5/run-20231014-zfs-snap/latencies.svg) |
-|---|---|
-| ![i5 / run-20231014-zfs-snap](i5/run-20231014-zfs-snap/tps.svg) | ![i5 / run-20231014-zfs-snap](i5/run-20231014-zfs-snap/latencies.svg) |
+latencies: [eps](i5/run-20231014-zfs-snap/latencies.eps) [svg](i5/run-20231014-zfs-snap/latencies.svg)
+![i5 / run-20231014-zfs-snap](i5/run-20231014-zfs-snap/latencies.svg)
 
 | | zfs | zfs-no-compress | zfs-no-fpw |
 |---|---|---|---|
@@ -60,10 +65,11 @@ i5 / run-20231014-zfs-snap
 
 i5 / run-20231015-btrfs-native
 =========================
+tps: [eps](i5/run-20231015-btrfs-native/tps.eps) [svg](i5/run-20231015-btrfs-native/tps.svg)
+![i5 / run-20231015-btrfs-native](i5/run-20231015-btrfs-native/tps.svg)
 
-| tps: [eps](i5/run-20231015-btrfs-native/tps.eps) [svg](i5/run-20231015-btrfs-native/tps.svg) | latencies: [eps](i5/run-20231015-btrfs-native/latencies.eps) [svg](i5/run-20231015-btrfs-native/latencies.svg) |
-|---|---|
-| ![i5 / run-20231015-btrfs-native](i5/run-20231015-btrfs-native/tps.svg) | ![i5 / run-20231015-btrfs-native](i5/run-20231015-btrfs-native/latencies.svg) |
+latencies: [eps](i5/run-20231015-btrfs-native/latencies.eps) [svg](i5/run-20231015-btrfs-native/latencies.svg)
+![i5 / run-20231015-btrfs-native](i5/run-20231015-btrfs-native/latencies.svg)
 
 | | btrfs | btrfs-no-compress |
 |---|---|---|
@@ -72,10 +78,11 @@ i5 / run-20231015-btrfs-native
 
 i5 / run-20231016-zfs-native-snap
 =========================
+tps: [eps](i5/run-20231016-zfs-native-snap/tps.eps) [svg](i5/run-20231016-zfs-native-snap/tps.svg)
+![i5 / run-20231016-zfs-native-snap](i5/run-20231016-zfs-native-snap/tps.svg)
 
-| tps: [eps](i5/run-20231016-zfs-native-snap/tps.eps) [svg](i5/run-20231016-zfs-native-snap/tps.svg) | latencies: [eps](i5/run-20231016-zfs-native-snap/latencies.eps) [svg](i5/run-20231016-zfs-native-snap/latencies.svg) |
-|---|---|
-| ![i5 / run-20231016-zfs-native-snap](i5/run-20231016-zfs-native-snap/tps.svg) | ![i5 / run-20231016-zfs-native-snap](i5/run-20231016-zfs-native-snap/latencies.svg) |
+latencies: [eps](i5/run-20231016-zfs-native-snap/latencies.eps) [svg](i5/run-20231016-zfs-native-snap/latencies.svg)
+![i5 / run-20231016-zfs-native-snap](i5/run-20231016-zfs-native-snap/latencies.svg)
 
 | | zfs | zfs-no-compress | zfs-no-fpw |
 |---|---|---|---|
@@ -84,10 +91,11 @@ i5 / run-20231016-zfs-native-snap
 
 i5 / run-20231017-btrfs-native-snap
 =========================
+tps: [eps](i5/run-20231017-btrfs-native-snap/tps.eps) [svg](i5/run-20231017-btrfs-native-snap/tps.svg)
+![i5 / run-20231017-btrfs-native-snap](i5/run-20231017-btrfs-native-snap/tps.svg)
 
-| tps: [eps](i5/run-20231017-btrfs-native-snap/tps.eps) [svg](i5/run-20231017-btrfs-native-snap/tps.svg) | latencies: [eps](i5/run-20231017-btrfs-native-snap/latencies.eps) [svg](i5/run-20231017-btrfs-native-snap/latencies.svg) |
-|---|---|
-| ![i5 / run-20231017-btrfs-native-snap](i5/run-20231017-btrfs-native-snap/tps.svg) | ![i5 / run-20231017-btrfs-native-snap](i5/run-20231017-btrfs-native-snap/latencies.svg) |
+latencies: [eps](i5/run-20231017-btrfs-native-snap/latencies.eps) [svg](i5/run-20231017-btrfs-native-snap/latencies.svg)
+![i5 / run-20231017-btrfs-native-snap](i5/run-20231017-btrfs-native-snap/latencies.svg)
 
 | | btrfs | btrfs-no-compress |
 |---|---|---|
@@ -96,10 +104,11 @@ i5 / run-20231017-btrfs-native-snap
 
 i5 / run-20231018-zfs-native
 =========================
+tps: [eps](i5/run-20231018-zfs-native/tps.eps) [svg](i5/run-20231018-zfs-native/tps.svg)
+![i5 / run-20231018-zfs-native](i5/run-20231018-zfs-native/tps.svg)
 
-| tps: [eps](i5/run-20231018-zfs-native/tps.eps) [svg](i5/run-20231018-zfs-native/tps.svg) | latencies: [eps](i5/run-20231018-zfs-native/latencies.eps) [svg](i5/run-20231018-zfs-native/latencies.svg) |
-|---|---|
-| ![i5 / run-20231018-zfs-native](i5/run-20231018-zfs-native/tps.svg) | ![i5 / run-20231018-zfs-native](i5/run-20231018-zfs-native/latencies.svg) |
+latencies: [eps](i5/run-20231018-zfs-native/latencies.eps) [svg](i5/run-20231018-zfs-native/latencies.svg)
+![i5 / run-20231018-zfs-native](i5/run-20231018-zfs-native/latencies.svg)
 
 | | zfs | zfs-no-compress | zfs-no-fpw |
 |---|---|---|---|
@@ -108,10 +117,11 @@ i5 / run-20231018-zfs-native
 
 xeon / run-20231008-first-run
 =========================
+tps: [eps](xeon/run-20231008-first-run/tps.eps) [svg](xeon/run-20231008-first-run/tps.svg)
+![xeon / run-20231008-first-run](xeon/run-20231008-first-run/tps.svg)
 
-| tps: [eps](xeon/run-20231008-first-run/tps.eps) [svg](xeon/run-20231008-first-run/tps.svg) | latencies: [eps](xeon/run-20231008-first-run/latencies.eps) [svg](xeon/run-20231008-first-run/latencies.svg) |
-|---|---|
-| ![xeon / run-20231008-first-run](xeon/run-20231008-first-run/tps.svg) | ![xeon / run-20231008-first-run](xeon/run-20231008-first-run/latencies.svg) |
+latencies: [eps](xeon/run-20231008-first-run/latencies.eps) [svg](xeon/run-20231008-first-run/latencies.svg)
+![xeon / run-20231008-first-run](xeon/run-20231008-first-run/latencies.svg)
 
 | | btrfs | btrfs-no-compress | ext4 | xfs | zfs | zfs-no-compress | zfs-no-fpw |
 |---|---|---|---|---|---|---|---|
@@ -120,10 +130,11 @@ xeon / run-20231008-first-run
 
 xeon / run-20231011-lvm-noflush
 =========================
+tps: [eps](xeon/run-20231011-lvm-noflush/tps.eps) [svg](xeon/run-20231011-lvm-noflush/tps.svg)
+![xeon / run-20231011-lvm-noflush](xeon/run-20231011-lvm-noflush/tps.svg)
 
-| tps: [eps](xeon/run-20231011-lvm-noflush/tps.eps) [svg](xeon/run-20231011-lvm-noflush/tps.svg) | latencies: [eps](xeon/run-20231011-lvm-noflush/latencies.eps) [svg](xeon/run-20231011-lvm-noflush/latencies.svg) |
-|---|---|
-| ![xeon / run-20231011-lvm-noflush](xeon/run-20231011-lvm-noflush/tps.svg) | ![xeon / run-20231011-lvm-noflush](xeon/run-20231011-lvm-noflush/latencies.svg) |
+latencies: [eps](xeon/run-20231011-lvm-noflush/latencies.eps) [svg](xeon/run-20231011-lvm-noflush/latencies.svg)
+![xeon / run-20231011-lvm-noflush](xeon/run-20231011-lvm-noflush/latencies.svg)
 
 | | ext4 | xfs |
 |---|---|---|
@@ -132,10 +143,11 @@ xeon / run-20231011-lvm-noflush
 
 xeon / run-20231012-lvm
 =========================
+tps: [eps](xeon/run-20231012-lvm/tps.eps) [svg](xeon/run-20231012-lvm/tps.svg)
+![xeon / run-20231012-lvm](xeon/run-20231012-lvm/tps.svg)
 
-| tps: [eps](xeon/run-20231012-lvm/tps.eps) [svg](xeon/run-20231012-lvm/tps.svg) | latencies: [eps](xeon/run-20231012-lvm/latencies.eps) [svg](xeon/run-20231012-lvm/latencies.svg) |
-|---|---|
-| ![xeon / run-20231012-lvm](xeon/run-20231012-lvm/tps.svg) | ![xeon / run-20231012-lvm](xeon/run-20231012-lvm/latencies.svg) |
+latencies: [eps](xeon/run-20231012-lvm/latencies.eps) [svg](xeon/run-20231012-lvm/latencies.svg)
+![xeon / run-20231012-lvm](xeon/run-20231012-lvm/latencies.svg)
 
 | | btrfs | btrfs-no-compress | ext4 | xfs |
 |---|---|---|---|---|
@@ -144,10 +156,11 @@ xeon / run-20231012-lvm
 
 xeon / run-20231014-lvm-snap
 =========================
+tps: [eps](xeon/run-20231014-lvm-snap/tps.eps) [svg](xeon/run-20231014-lvm-snap/tps.svg)
+![xeon / run-20231014-lvm-snap](xeon/run-20231014-lvm-snap/tps.svg)
 
-| tps: [eps](xeon/run-20231014-lvm-snap/tps.eps) [svg](xeon/run-20231014-lvm-snap/tps.svg) | latencies: [eps](xeon/run-20231014-lvm-snap/latencies.eps) [svg](xeon/run-20231014-lvm-snap/latencies.svg) |
-|---|---|
-| ![xeon / run-20231014-lvm-snap](xeon/run-20231014-lvm-snap/tps.svg) | ![xeon / run-20231014-lvm-snap](xeon/run-20231014-lvm-snap/latencies.svg) |
+latencies: [eps](xeon/run-20231014-lvm-snap/latencies.eps) [svg](xeon/run-20231014-lvm-snap/latencies.svg)
+![xeon / run-20231014-lvm-snap](xeon/run-20231014-lvm-snap/latencies.svg)
 
 | | btrfs | btrfs-no-compress | ext4 | xfs |
 |---|---|---|---|---|
@@ -156,10 +169,11 @@ xeon / run-20231014-lvm-snap
 
 xeon / run-20231015-btrfs
 =========================
+tps: [eps](xeon/run-20231015-btrfs/tps.eps) [svg](xeon/run-20231015-btrfs/tps.svg)
+![xeon / run-20231015-btrfs](xeon/run-20231015-btrfs/tps.svg)
 
-| tps: [eps](xeon/run-20231015-btrfs/tps.eps) [svg](xeon/run-20231015-btrfs/tps.svg) | latencies: [eps](xeon/run-20231015-btrfs/latencies.eps) [svg](xeon/run-20231015-btrfs/latencies.svg) |
-|---|---|
-| ![xeon / run-20231015-btrfs](xeon/run-20231015-btrfs/tps.svg) | ![xeon / run-20231015-btrfs](xeon/run-20231015-btrfs/latencies.svg) |
+latencies: [eps](xeon/run-20231015-btrfs/latencies.eps) [svg](xeon/run-20231015-btrfs/latencies.svg)
+![xeon / run-20231015-btrfs](xeon/run-20231015-btrfs/latencies.svg)
 
 | | btrfs | btrfs-no-compress |
 |---|---|---|
@@ -168,10 +182,11 @@ xeon / run-20231015-btrfs
 
 xeon / run-20231016-zfs
 =========================
+tps: [eps](xeon/run-20231016-zfs/tps.eps) [svg](xeon/run-20231016-zfs/tps.svg)
+![xeon / run-20231016-zfs](xeon/run-20231016-zfs/tps.svg)
 
-| tps: [eps](xeon/run-20231016-zfs/tps.eps) [svg](xeon/run-20231016-zfs/tps.svg) | latencies: [eps](xeon/run-20231016-zfs/latencies.eps) [svg](xeon/run-20231016-zfs/latencies.svg) |
-|---|---|
-| ![xeon / run-20231016-zfs](xeon/run-20231016-zfs/tps.svg) | ![xeon / run-20231016-zfs](xeon/run-20231016-zfs/latencies.svg) |
+latencies: [eps](xeon/run-20231016-zfs/latencies.eps) [svg](xeon/run-20231016-zfs/latencies.svg)
+![xeon / run-20231016-zfs](xeon/run-20231016-zfs/latencies.svg)
 
 | | zfs | zfs-no-compress | zfs-no-fpw |
 |---|---|---|---|
@@ -180,10 +195,11 @@ xeon / run-20231016-zfs
 
 xeon / run-20231017-kingston-first-run
 =========================
+tps: [eps](xeon/run-20231017-kingston-first-run/tps.eps) [svg](xeon/run-20231017-kingston-first-run/tps.svg)
+![xeon / run-20231017-kingston-first-run](xeon/run-20231017-kingston-first-run/tps.svg)
 
-| tps: [eps](xeon/run-20231017-kingston-first-run/tps.eps) [svg](xeon/run-20231017-kingston-first-run/tps.svg) | latencies: [eps](xeon/run-20231017-kingston-first-run/latencies.eps) [svg](xeon/run-20231017-kingston-first-run/latencies.svg) |
-|---|---|
-| ![xeon / run-20231017-kingston-first-run](xeon/run-20231017-kingston-first-run/tps.svg) | ![xeon / run-20231017-kingston-first-run](xeon/run-20231017-kingston-first-run/latencies.svg) |
+latencies: [eps](xeon/run-20231017-kingston-first-run/latencies.eps) [svg](xeon/run-20231017-kingston-first-run/latencies.svg)
+![xeon / run-20231017-kingston-first-run](xeon/run-20231017-kingston-first-run/latencies.svg)
 
 | | btrfs | btrfs-no-compress | ext4 | xfs | zfs | zfs-no-compress | zfs-no-fpw |
 |---|---|---|---|---|---|---|---|
