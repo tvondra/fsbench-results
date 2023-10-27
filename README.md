@@ -133,6 +133,36 @@ latencies: [eps](i5/run-20231018-zfs-native/latencies.eps) [svg](i5/run-20231018
 |tps| [eps](i5/run-20231018-zfs-native/tps-zfs.eps) [svg](i5/run-20231018-zfs-native/tps-zfs.svg) | [eps](i5/run-20231018-zfs-native/tps-zfs-no-compress.eps) [svg](i5/run-20231018-zfs-native/tps-zfs-no-compress.svg) | [eps](i5/run-20231018-zfs-native/tps-zfs-no-fpw.eps) [svg](i5/run-20231018-zfs-native/tps-zfs-no-fpw.svg) |
 |latency| [eps](i5/run-20231018-zfs-native/latencies-zfs.eps) [svg](i5/run-20231018-zfs-native/latencies-zfs.svg) | [eps](i5/run-20231018-zfs-native/latencies-zfs-no-compress.eps) [svg](i5/run-20231018-zfs-native/latencies-zfs-no-compress.svg) | [eps](i5/run-20231018-zfs-native/latencies-zfs-no-fpw.eps) [svg](i5/run-20231018-zfs-native/latencies-zfs-no-fpw.svg) |
 
+i5 / run-20231024-throttled
+=========================
+plain SSD RAID0 (mdraid) + throttled to 90%
+
+tps: [eps](i5/run-20231024-throttled/tps.eps) [svg](i5/run-20231024-throttled/tps.svg)
+![i5 / run-20231024-throttled](i5/run-20231024-throttled/tps.svg)
+
+latencies: [eps](i5/run-20231024-throttled/latencies.eps) [svg](i5/run-20231024-throttled/latencies.svg)
+![i5 / run-20231024-throttled](i5/run-20231024-throttled/latencies.svg)
+
+| | btrfs | ext4 | xfs | zfs |
+|---|---|---|---|---|
+|tps| [eps](i5/run-20231024-throttled/tps-btrfs.eps) [svg](i5/run-20231024-throttled/tps-btrfs.svg) | [eps](i5/run-20231024-throttled/tps-ext4.eps) [svg](i5/run-20231024-throttled/tps-ext4.svg) | [eps](i5/run-20231024-throttled/tps-xfs.eps) [svg](i5/run-20231024-throttled/tps-xfs.svg) | [eps](i5/run-20231024-throttled/tps-zfs.eps) [svg](i5/run-20231024-throttled/tps-zfs.svg) |
+|latency| [eps](i5/run-20231024-throttled/latencies-btrfs.eps) [svg](i5/run-20231024-throttled/latencies-btrfs.svg) | [eps](i5/run-20231024-throttled/latencies-ext4.eps) [svg](i5/run-20231024-throttled/latencies-ext4.svg) | [eps](i5/run-20231024-throttled/latencies-xfs.eps) [svg](i5/run-20231024-throttled/latencies-xfs.svg) | [eps](i5/run-20231024-throttled/latencies-zfs.eps) [svg](i5/run-20231024-throttled/latencies-zfs.svg) |
+
+i5 / run-20231025-lvm-snap-throttled
+=========================
+SSD RAID0 (mdraid) + LVM + snapshots + throttled to 90%
+
+tps: [eps](i5/run-20231025-lvm-snap-throttled/tps.eps) [svg](i5/run-20231025-lvm-snap-throttled/tps.svg)
+![i5 / run-20231025-lvm-snap-throttled](i5/run-20231025-lvm-snap-throttled/tps.svg)
+
+latencies: [eps](i5/run-20231025-lvm-snap-throttled/latencies.eps) [svg](i5/run-20231025-lvm-snap-throttled/latencies.svg)
+![i5 / run-20231025-lvm-snap-throttled](i5/run-20231025-lvm-snap-throttled/latencies.svg)
+
+| | btrfs | ext4 | xfs |
+|---|---|---|---|
+|tps| [eps](i5/run-20231025-lvm-snap-throttled/tps-btrfs.eps) [svg](i5/run-20231025-lvm-snap-throttled/tps-btrfs.svg) | [eps](i5/run-20231025-lvm-snap-throttled/tps-ext4.eps) [svg](i5/run-20231025-lvm-snap-throttled/tps-ext4.svg) | [eps](i5/run-20231025-lvm-snap-throttled/tps-xfs.eps) [svg](i5/run-20231025-lvm-snap-throttled/tps-xfs.svg) |
+|latency| [eps](i5/run-20231025-lvm-snap-throttled/latencies-btrfs.eps) [svg](i5/run-20231025-lvm-snap-throttled/latencies-btrfs.svg) | [eps](i5/run-20231025-lvm-snap-throttled/latencies-ext4.eps) [svg](i5/run-20231025-lvm-snap-throttled/latencies-ext4.svg) | [eps](i5/run-20231025-lvm-snap-throttled/latencies-xfs.eps) [svg](i5/run-20231025-lvm-snap-throttled/latencies-xfs.svg) |
+
 xeon / run-20231008-first-run
 =========================
 nvme (WDC SN640 960 GB)
@@ -237,4 +267,34 @@ latencies: [eps](xeon/run-20231017-kingston-first-run/latencies.eps) [svg](xeon/
 |---|---|---|---|---|---|---|---|
 |tps| [eps](xeon/run-20231017-kingston-first-run/tps-btrfs.eps) [svg](xeon/run-20231017-kingston-first-run/tps-btrfs.svg) | [eps](xeon/run-20231017-kingston-first-run/tps-btrfs-no-compress.eps) [svg](xeon/run-20231017-kingston-first-run/tps-btrfs-no-compress.svg) | [eps](xeon/run-20231017-kingston-first-run/tps-ext4.eps) [svg](xeon/run-20231017-kingston-first-run/tps-ext4.svg) | [eps](xeon/run-20231017-kingston-first-run/tps-xfs.eps) [svg](xeon/run-20231017-kingston-first-run/tps-xfs.svg) | [eps](xeon/run-20231017-kingston-first-run/tps-zfs.eps) [svg](xeon/run-20231017-kingston-first-run/tps-zfs.svg) | [eps](xeon/run-20231017-kingston-first-run/tps-zfs-no-compress.eps) [svg](xeon/run-20231017-kingston-first-run/tps-zfs-no-compress.svg) | [eps](xeon/run-20231017-kingston-first-run/tps-zfs-no-fpw.eps) [svg](xeon/run-20231017-kingston-first-run/tps-zfs-no-fpw.svg) |
 |latency| [eps](xeon/run-20231017-kingston-first-run/latencies-btrfs.eps) [svg](xeon/run-20231017-kingston-first-run/latencies-btrfs.svg) | [eps](xeon/run-20231017-kingston-first-run/latencies-btrfs-no-compress.eps) [svg](xeon/run-20231017-kingston-first-run/latencies-btrfs-no-compress.svg) | [eps](xeon/run-20231017-kingston-first-run/latencies-ext4.eps) [svg](xeon/run-20231017-kingston-first-run/latencies-ext4.svg) | [eps](xeon/run-20231017-kingston-first-run/latencies-xfs.eps) [svg](xeon/run-20231017-kingston-first-run/latencies-xfs.svg) | [eps](xeon/run-20231017-kingston-first-run/latencies-zfs.eps) [svg](xeon/run-20231017-kingston-first-run/latencies-zfs.svg) | [eps](xeon/run-20231017-kingston-first-run/latencies-zfs-no-compress.eps) [svg](xeon/run-20231017-kingston-first-run/latencies-zfs-no-compress.svg) | [eps](xeon/run-20231017-kingston-first-run/latencies-zfs-no-fpw.eps) [svg](xeon/run-20231017-kingston-first-run/latencies-zfs-no-fpw.svg) |
+
+xeon / run-20231024-throttled
+=========================
+nvme (WDC SN640 960 GB) + throttled to 90%
+
+tps: [eps](xeon/run-20231024-throttled/tps.eps) [svg](xeon/run-20231024-throttled/tps.svg)
+![xeon / run-20231024-throttled](xeon/run-20231024-throttled/tps.svg)
+
+latencies: [eps](xeon/run-20231024-throttled/latencies.eps) [svg](xeon/run-20231024-throttled/latencies.svg)
+![xeon / run-20231024-throttled](xeon/run-20231024-throttled/latencies.svg)
+
+| | btrfs | ext4 | xfs | zfs |
+|---|---|---|---|---|
+|tps| [eps](xeon/run-20231024-throttled/tps-btrfs.eps) [svg](xeon/run-20231024-throttled/tps-btrfs.svg) | [eps](xeon/run-20231024-throttled/tps-ext4.eps) [svg](xeon/run-20231024-throttled/tps-ext4.svg) | [eps](xeon/run-20231024-throttled/tps-xfs.eps) [svg](xeon/run-20231024-throttled/tps-xfs.svg) | [eps](xeon/run-20231024-throttled/tps-zfs.eps) [svg](xeon/run-20231024-throttled/tps-zfs.svg) |
+|latency| [eps](xeon/run-20231024-throttled/latencies-btrfs.eps) [svg](xeon/run-20231024-throttled/latencies-btrfs.svg) | [eps](xeon/run-20231024-throttled/latencies-ext4.eps) [svg](xeon/run-20231024-throttled/latencies-ext4.svg) | [eps](xeon/run-20231024-throttled/latencies-xfs.eps) [svg](xeon/run-20231024-throttled/latencies-xfs.svg) | [eps](xeon/run-20231024-throttled/latencies-zfs.eps) [svg](xeon/run-20231024-throttled/latencies-zfs.svg) |
+
+xeon / run-20231025-lvm-snap-throttled
+=========================
+nvme (WDC SN640 960 GB) + LVM + snapshots + throttled to 90%
+
+tps: [eps](xeon/run-20231025-lvm-snap-throttled/tps.eps) [svg](xeon/run-20231025-lvm-snap-throttled/tps.svg)
+![xeon / run-20231025-lvm-snap-throttled](xeon/run-20231025-lvm-snap-throttled/tps.svg)
+
+latencies: [eps](xeon/run-20231025-lvm-snap-throttled/latencies.eps) [svg](xeon/run-20231025-lvm-snap-throttled/latencies.svg)
+![xeon / run-20231025-lvm-snap-throttled](xeon/run-20231025-lvm-snap-throttled/latencies.svg)
+
+| | btrfs | ext4 | xfs |
+|---|---|---|---|
+|tps| [eps](xeon/run-20231025-lvm-snap-throttled/tps-btrfs.eps) [svg](xeon/run-20231025-lvm-snap-throttled/tps-btrfs.svg) | [eps](xeon/run-20231025-lvm-snap-throttled/tps-ext4.eps) [svg](xeon/run-20231025-lvm-snap-throttled/tps-ext4.svg) | [eps](xeon/run-20231025-lvm-snap-throttled/tps-xfs.eps) [svg](xeon/run-20231025-lvm-snap-throttled/tps-xfs.svg) |
+|latency| [eps](xeon/run-20231025-lvm-snap-throttled/latencies-btrfs.eps) [svg](xeon/run-20231025-lvm-snap-throttled/latencies-btrfs.svg) | [eps](xeon/run-20231025-lvm-snap-throttled/latencies-ext4.eps) [svg](xeon/run-20231025-lvm-snap-throttled/latencies-ext4.svg) | [eps](xeon/run-20231025-lvm-snap-throttled/latencies-xfs.eps) [svg](xeon/run-20231025-lvm-snap-throttled/latencies-xfs.svg) |
 
