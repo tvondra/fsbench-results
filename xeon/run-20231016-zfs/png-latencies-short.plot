@@ -8,7 +8,7 @@ set yrange [0:]
 set logscale y
 
 set multiplot layout 4,3 rowsfirst
-set yrange [100:1000000]
+set yrange [100:10000000]
 set title 'zfs / rw / 100'
 plot 'zfs/100/rw/64/summary.data' using 1:8 with lines title 'p99', \
      'zfs/100/rw/64/summary.data' using 1:7 with lines title 'p95', \
@@ -31,8 +31,9 @@ plot 'zfs-no-fpw/100/rw/64/summary.data' using 1:8 with lines title 'p99', \
      'zfs-no-fpw/100/rw/64/summary.data' using 1:4 with lines title 'p25'
 
 
+set yrange [100000000:100000]
 
-set yrange [100:1000000]
+set yrange [100:100000000]
 set title 'zfs / rw / 1000'
 plot 'zfs/1000/rw/64/summary.data' using 1:8 with lines title 'p99', \
      'zfs/1000/rw/64/summary.data' using 1:7 with lines title 'p95', \
@@ -55,8 +56,9 @@ plot 'zfs-no-fpw/1000/rw/64/summary.data' using 1:8 with lines title 'p99', \
      'zfs-no-fpw/1000/rw/64/summary.data' using 1:4 with lines title 'p25'
 
 
+set yrange [100000000:100000]
 
-set yrange [1000:10000000]
+set yrange [1000:1000000000]
 set title 'zfs / rw / 10000'
 plot 'zfs/10000/rw/64/summary.data' using 1:8 with lines title 'p99', \
      'zfs/10000/rw/64/summary.data' using 1:7 with lines title 'p95', \

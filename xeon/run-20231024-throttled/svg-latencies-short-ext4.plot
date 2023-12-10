@@ -17,8 +17,9 @@ plot 'ext4/100/rw/64/summary.data' using 1:8 with lines title 'p99', \
      'ext4/100/rw/64/summary.data' using 1:4 with lines title 'p25'
 
 
+set yrange [100000000:100000]
 
-set yrange [100:10000000]
+set yrange [100:100000000]
 set title 'ext4 / rw / 1000'
 plot 'ext4/1000/rw/64/summary.data' using 1:8 with lines title 'p99', \
      'ext4/1000/rw/64/summary.data' using 1:7 with lines title 'p95', \
@@ -27,8 +28,9 @@ plot 'ext4/1000/rw/64/summary.data' using 1:8 with lines title 'p99', \
      'ext4/1000/rw/64/summary.data' using 1:4 with lines title 'p25'
 
 
+set yrange [100000000:100000]
 
-set yrange [100:100000000]
+set yrange [100:1000000000]
 set title 'ext4 / rw / 10000'
 plot 'ext4/10000/rw/64/summary.data' using 1:8 with lines title 'p99', \
      'ext4/10000/rw/64/summary.data' using 1:7 with lines title 'p95', \
@@ -37,7 +39,7 @@ plot 'ext4/10000/rw/64/summary.data' using 1:8 with lines title 'p99', \
      'ext4/10000/rw/64/summary.data' using 1:4 with lines title 'p25'
 
 
-set yrange [100:10000000]
+set yrange [100:100000]
 set title 'ext4 / ro / 10000'
 plot 'ext4/10000/ro/64/summary.data' using 1:8 with lines title 'p99', \
      'ext4/10000/ro/64/summary.data' using 1:7 with lines title 'p95', \
