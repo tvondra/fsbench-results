@@ -193,6 +193,21 @@ latencies: [eps](i5/run-20231028-throttled/latencies.eps) [svg](i5/run-20231028-
 |tps| [eps](i5/run-20231028-throttled/tps-btrfs.eps) [svg](i5/run-20231028-throttled/tps-btrfs.svg) | [eps](i5/run-20231028-throttled/tps-ext4.eps) [svg](i5/run-20231028-throttled/tps-ext4.svg) | [eps](i5/run-20231028-throttled/tps-xfs.eps) [svg](i5/run-20231028-throttled/tps-xfs.svg) | [eps](i5/run-20231028-throttled/tps-zfs.eps) [svg](i5/run-20231028-throttled/tps-zfs.svg) |
 |latency| [eps](i5/run-20231028-throttled/latencies-btrfs.eps) [svg](i5/run-20231028-throttled/latencies-btrfs.svg) | [eps](i5/run-20231028-throttled/latencies-ext4.eps) [svg](i5/run-20231028-throttled/latencies-ext4.svg) | [eps](i5/run-20231028-throttled/latencies-xfs.eps) [svg](i5/run-20231028-throttled/latencies-xfs.svg) | [eps](i5/run-20231028-throttled/latencies-zfs.eps) [svg](i5/run-20231028-throttled/latencies-zfs.svg) |
 
+i5 / run-20231030-zfs-native-snap-throttled
+=========================
+
+
+tps: [eps](i5/run-20231030-zfs-native-snap-throttled/tps.eps) [svg](i5/run-20231030-zfs-native-snap-throttled/tps.svg)
+![i5 / run-20231030-zfs-native-snap-throttled](i5/run-20231030-zfs-native-snap-throttled/tps.svg)
+
+latencies: [eps](i5/run-20231030-zfs-native-snap-throttled/latencies.eps) [svg](i5/run-20231030-zfs-native-snap-throttled/latencies.svg)
+![i5 / run-20231030-zfs-native-snap-throttled](i5/run-20231030-zfs-native-snap-throttled/latencies.svg)
+
+| | zfs |
+|---|---|
+|tps| [eps](i5/run-20231030-zfs-native-snap-throttled/tps-zfs.eps) [svg](i5/run-20231030-zfs-native-snap-throttled/tps-zfs.svg) |
+|latency| [eps](i5/run-20231030-zfs-native-snap-throttled/latencies-zfs.eps) [svg](i5/run-20231030-zfs-native-snap-throttled/latencies-zfs.svg) |
+
 xeon / run-20231008-first-run
 =========================
 nvme (WDC SN640 960 GB)
