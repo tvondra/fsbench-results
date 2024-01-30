@@ -195,7 +195,7 @@ latencies: [eps](i5/run-20231028-throttled/latencies.eps) [svg](i5/run-20231028-
 
 i5 / run-20231030-zfs-native-snap-throttled
 =========================
-
+zfs + native raid0 + snapshots + throttled to 90%
 
 tps: [eps](i5/run-20231030-zfs-native-snap-throttled/tps.eps) [svg](i5/run-20231030-zfs-native-snap-throttled/tps.svg)
 ![i5 / run-20231030-zfs-native-snap-throttled](i5/run-20231030-zfs-native-snap-throttled/tps.svg)
@@ -387,4 +387,169 @@ latencies: [eps](xeon/run-20231028-throttled/latencies.eps) [svg](xeon/run-20231
 |---|---|---|---|---|
 |tps| [eps](xeon/run-20231028-throttled/tps-btrfs.eps) [svg](xeon/run-20231028-throttled/tps-btrfs.svg) | [eps](xeon/run-20231028-throttled/tps-ext4.eps) [svg](xeon/run-20231028-throttled/tps-ext4.svg) | [eps](xeon/run-20231028-throttled/tps-xfs.eps) [svg](xeon/run-20231028-throttled/tps-xfs.svg) | [eps](xeon/run-20231028-throttled/tps-zfs.eps) [svg](xeon/run-20231028-throttled/tps-zfs.svg) |
 |latency| [eps](xeon/run-20231028-throttled/latencies-btrfs.eps) [svg](xeon/run-20231028-throttled/latencies-btrfs.svg) | [eps](xeon/run-20231028-throttled/latencies-ext4.eps) [svg](xeon/run-20231028-throttled/latencies-ext4.svg) | [eps](xeon/run-20231028-throttled/latencies-xfs.eps) [svg](xeon/run-20231028-throttled/latencies-xfs.svg) | [eps](xeon/run-20231028-throttled/latencies-zfs.eps) [svg](xeon/run-20231028-throttled/latencies-zfs.svg) |
+
+epyc / 20240106-single-device
+=========================
+
+
+tps: [eps](epyc/20240106-single-device/tps.eps) [svg](epyc/20240106-single-device/tps.svg)
+![epyc / 20240106-single-device](epyc/20240106-single-device/tps.svg)
+
+latencies: [eps](epyc/20240106-single-device/latencies.eps) [svg](epyc/20240106-single-device/latencies.svg)
+![epyc / 20240106-single-device](epyc/20240106-single-device/latencies.svg)
+
+| | btrfs | ext4 | xfs | zfs |
+|---|---|---|---|---|
+|tps| [eps](epyc/20240106-single-device/tps-btrfs.eps) [svg](epyc/20240106-single-device/tps-btrfs.svg) | [eps](epyc/20240106-single-device/tps-ext4.eps) [svg](epyc/20240106-single-device/tps-ext4.svg) | [eps](epyc/20240106-single-device/tps-xfs.eps) [svg](epyc/20240106-single-device/tps-xfs.svg) | [eps](epyc/20240106-single-device/tps-zfs.eps) [svg](epyc/20240106-single-device/tps-zfs.svg) |
+|latency| [eps](epyc/20240106-single-device/latencies-btrfs.eps) [svg](epyc/20240106-single-device/latencies-btrfs.svg) | [eps](epyc/20240106-single-device/latencies-ext4.eps) [svg](epyc/20240106-single-device/latencies-ext4.svg) | [eps](epyc/20240106-single-device/latencies-xfs.eps) [svg](epyc/20240106-single-device/latencies-xfs.svg) | [eps](epyc/20240106-single-device/latencies-zfs.eps) [svg](epyc/20240106-single-device/latencies-zfs.svg) |
+
+epyc / 20240109-single-device-fixed
+=========================
+
+
+tps: [eps](epyc/20240109-single-device-fixed/tps.eps) [svg](epyc/20240109-single-device-fixed/tps.svg)
+![epyc / 20240109-single-device-fixed](epyc/20240109-single-device-fixed/tps.svg)
+
+latencies: [eps](epyc/20240109-single-device-fixed/latencies.eps) [svg](epyc/20240109-single-device-fixed/latencies.svg)
+![epyc / 20240109-single-device-fixed](epyc/20240109-single-device-fixed/latencies.svg)
+
+| | btrfs | ext4 | xfs | zfs |
+|---|---|---|---|---|
+|tps| [eps](epyc/20240109-single-device-fixed/tps-btrfs.eps) [svg](epyc/20240109-single-device-fixed/tps-btrfs.svg) | [eps](epyc/20240109-single-device-fixed/tps-ext4.eps) [svg](epyc/20240109-single-device-fixed/tps-ext4.svg) | [eps](epyc/20240109-single-device-fixed/tps-xfs.eps) [svg](epyc/20240109-single-device-fixed/tps-xfs.svg) | [eps](epyc/20240109-single-device-fixed/tps-zfs.eps) [svg](epyc/20240109-single-device-fixed/tps-zfs.svg) |
+|latency| [eps](epyc/20240109-single-device-fixed/latencies-btrfs.eps) [svg](epyc/20240109-single-device-fixed/latencies-btrfs.svg) | [eps](epyc/20240109-single-device-fixed/latencies-ext4.eps) [svg](epyc/20240109-single-device-fixed/latencies-ext4.svg) | [eps](epyc/20240109-single-device-fixed/latencies-xfs.eps) [svg](epyc/20240109-single-device-fixed/latencies-xfs.svg) | [eps](epyc/20240109-single-device-fixed/latencies-zfs.eps) [svg](epyc/20240109-single-device-fixed/latencies-zfs.svg) |
+
+epyc / 20240110-raid
+=========================
+
+
+tps: [eps](epyc/20240110-raid/tps.eps) [svg](epyc/20240110-raid/tps.svg)
+![epyc / 20240110-raid](epyc/20240110-raid/tps.svg)
+
+latencies: [eps](epyc/20240110-raid/latencies.eps) [svg](epyc/20240110-raid/latencies.svg)
+![epyc / 20240110-raid](epyc/20240110-raid/latencies.svg)
+
+| | btrfs | ext4 | xfs | zfs |
+|---|---|---|---|---|
+|tps| [eps](epyc/20240110-raid/tps-btrfs.eps) [svg](epyc/20240110-raid/tps-btrfs.svg) | [eps](epyc/20240110-raid/tps-ext4.eps) [svg](epyc/20240110-raid/tps-ext4.svg) | [eps](epyc/20240110-raid/tps-xfs.eps) [svg](epyc/20240110-raid/tps-xfs.svg) | [eps](epyc/20240110-raid/tps-zfs.eps) [svg](epyc/20240110-raid/tps-zfs.svg) |
+|latency| [eps](epyc/20240110-raid/latencies-btrfs.eps) [svg](epyc/20240110-raid/latencies-btrfs.svg) | [eps](epyc/20240110-raid/latencies-ext4.eps) [svg](epyc/20240110-raid/latencies-ext4.svg) | [eps](epyc/20240110-raid/latencies-xfs.eps) [svg](epyc/20240110-raid/latencies-xfs.svg) | [eps](epyc/20240110-raid/latencies-zfs.eps) [svg](epyc/20240110-raid/latencies-zfs.svg) |
+
+epyc / 20240123-zfs
+=========================
+
+
+tps: [eps](epyc/20240123-zfs/tps.eps) [svg](epyc/20240123-zfs/tps.svg)
+![epyc / 20240123-zfs](epyc/20240123-zfs/tps.svg)
+
+latencies: [eps](epyc/20240123-zfs/latencies.eps) [svg](epyc/20240123-zfs/latencies.svg)
+![epyc / 20240123-zfs](epyc/20240123-zfs/latencies.svg)
+
+| | zfs |
+|---|---|
+|tps| [eps](epyc/20240123-zfs/tps-zfs.eps) [svg](epyc/20240123-zfs/tps-zfs.svg) |
+|latency| [eps](epyc/20240123-zfs/latencies-zfs.eps) [svg](epyc/20240123-zfs/latencies-zfs.svg) |
+
+epyc / 20240124-btrfs
+=========================
+
+
+tps: [eps](epyc/20240124-btrfs/tps.eps) [svg](epyc/20240124-btrfs/tps.svg)
+![epyc / 20240124-btrfs](epyc/20240124-btrfs/tps.svg)
+
+latencies: [eps](epyc/20240124-btrfs/latencies.eps) [svg](epyc/20240124-btrfs/latencies.svg)
+![epyc / 20240124-btrfs](epyc/20240124-btrfs/latencies.svg)
+
+| | btrfs |
+|---|---|
+|tps| [eps](epyc/20240124-btrfs/tps-btrfs.eps) [svg](epyc/20240124-btrfs/tps-btrfs.svg) |
+|latency| [eps](epyc/20240124-btrfs/latencies-btrfs.eps) [svg](epyc/20240124-btrfs/latencies-btrfs.svg) |
+
+epyc / 20240124-btrfs-snapshots
+=========================
+
+
+tps: [eps](epyc/20240124-btrfs-snapshots/tps.eps) [svg](epyc/20240124-btrfs-snapshots/tps.svg)
+![epyc / 20240124-btrfs-snapshots](epyc/20240124-btrfs-snapshots/tps.svg)
+
+latencies: [eps](epyc/20240124-btrfs-snapshots/latencies.eps) [svg](epyc/20240124-btrfs-snapshots/latencies.svg)
+![epyc / 20240124-btrfs-snapshots](epyc/20240124-btrfs-snapshots/latencies.svg)
+
+| | btrfs |
+|---|---|
+|tps| [eps](epyc/20240124-btrfs-snapshots/tps-btrfs.eps) [svg](epyc/20240124-btrfs-snapshots/tps-btrfs.svg) |
+|latency| [eps](epyc/20240124-btrfs-snapshots/latencies-btrfs.eps) [svg](epyc/20240124-btrfs-snapshots/latencies-btrfs.svg) |
+
+epyc / 20240125-zfs-snapshots
+=========================
+
+
+tps: [eps](epyc/20240125-zfs-snapshots/tps.eps) [svg](epyc/20240125-zfs-snapshots/tps.svg)
+![epyc / 20240125-zfs-snapshots](epyc/20240125-zfs-snapshots/tps.svg)
+
+latencies: [eps](epyc/20240125-zfs-snapshots/latencies.eps) [svg](epyc/20240125-zfs-snapshots/latencies.svg)
+![epyc / 20240125-zfs-snapshots](epyc/20240125-zfs-snapshots/latencies.svg)
+
+| | zfs |
+|---|---|
+|tps| [eps](epyc/20240125-zfs-snapshots/tps-zfs.eps) [svg](epyc/20240125-zfs-snapshots/tps-zfs.svg) |
+|latency| [eps](epyc/20240125-zfs-snapshots/latencies-zfs.eps) [svg](epyc/20240125-zfs-snapshots/latencies-zfs.svg) |
+
+epyc / 20240126-lvm-snapshots
+=========================
+
+
+tps: [eps](epyc/20240126-lvm-snapshots/tps.eps) [svg](epyc/20240126-lvm-snapshots/tps.svg)
+![epyc / 20240126-lvm-snapshots](epyc/20240126-lvm-snapshots/tps.svg)
+
+latencies: [eps](epyc/20240126-lvm-snapshots/latencies.eps) [svg](epyc/20240126-lvm-snapshots/latencies.svg)
+![epyc / 20240126-lvm-snapshots](epyc/20240126-lvm-snapshots/latencies.svg)
+
+| | btrfs | ext4 | xfs |
+|---|---|---|---|
+|tps| [eps](epyc/20240126-lvm-snapshots/tps-btrfs.eps) [svg](epyc/20240126-lvm-snapshots/tps-btrfs.svg) | [eps](epyc/20240126-lvm-snapshots/tps-ext4.eps) [svg](epyc/20240126-lvm-snapshots/tps-ext4.svg) | [eps](epyc/20240126-lvm-snapshots/tps-xfs.eps) [svg](epyc/20240126-lvm-snapshots/tps-xfs.svg) |
+|latency| [eps](epyc/20240126-lvm-snapshots/latencies-btrfs.eps) [svg](epyc/20240126-lvm-snapshots/latencies-btrfs.svg) | [eps](epyc/20240126-lvm-snapshots/latencies-ext4.eps) [svg](epyc/20240126-lvm-snapshots/latencies-ext4.svg) | [eps](epyc/20240126-lvm-snapshots/latencies-xfs.eps) [svg](epyc/20240126-lvm-snapshots/latencies-xfs.svg) |
+
+epyc / 20240126-lvm-snapshots-fixed
+=========================
+
+
+tps: [eps](epyc/20240126-lvm-snapshots-fixed/tps.eps) [svg](epyc/20240126-lvm-snapshots-fixed/tps.svg)
+![epyc / 20240126-lvm-snapshots-fixed](epyc/20240126-lvm-snapshots-fixed/tps.svg)
+
+latencies: [eps](epyc/20240126-lvm-snapshots-fixed/latencies.eps) [svg](epyc/20240126-lvm-snapshots-fixed/latencies.svg)
+![epyc / 20240126-lvm-snapshots-fixed](epyc/20240126-lvm-snapshots-fixed/latencies.svg)
+
+| | btrfs | ext4 | xfs |
+|---|---|---|---|
+|tps| [eps](epyc/20240126-lvm-snapshots-fixed/tps-btrfs.eps) [svg](epyc/20240126-lvm-snapshots-fixed/tps-btrfs.svg) | [eps](epyc/20240126-lvm-snapshots-fixed/tps-ext4.eps) [svg](epyc/20240126-lvm-snapshots-fixed/tps-ext4.svg) | [eps](epyc/20240126-lvm-snapshots-fixed/tps-xfs.eps) [svg](epyc/20240126-lvm-snapshots-fixed/tps-xfs.svg) |
+|latency| [eps](epyc/20240126-lvm-snapshots-fixed/latencies-btrfs.eps) [svg](epyc/20240126-lvm-snapshots-fixed/latencies-btrfs.svg) | [eps](epyc/20240126-lvm-snapshots-fixed/latencies-ext4.eps) [svg](epyc/20240126-lvm-snapshots-fixed/latencies-ext4.svg) | [eps](epyc/20240126-lvm-snapshots-fixed/latencies-xfs.eps) [svg](epyc/20240126-lvm-snapshots-fixed/latencies-xfs.svg) |
+
+epyc / 20240128-zfs-nofpw
+=========================
+
+
+tps: [eps](epyc/20240128-zfs-nofpw/tps.eps) [svg](epyc/20240128-zfs-nofpw/tps.svg)
+![epyc / 20240128-zfs-nofpw](epyc/20240128-zfs-nofpw/tps.svg)
+
+latencies: [eps](epyc/20240128-zfs-nofpw/latencies.eps) [svg](epyc/20240128-zfs-nofpw/latencies.svg)
+![epyc / 20240128-zfs-nofpw](epyc/20240128-zfs-nofpw/latencies.svg)
+
+| | zfs |
+|---|---|
+|tps| [eps](epyc/20240128-zfs-nofpw/tps-zfs.eps) [svg](epyc/20240128-zfs-nofpw/tps-zfs.svg) |
+|latency| [eps](epyc/20240128-zfs-nofpw/latencies-zfs.eps) [svg](epyc/20240128-zfs-nofpw/latencies-zfs.svg) |
+
+epyc / 20240128-zfs-snapshots-nofpw
+=========================
+
+
+tps: [eps](epyc/20240128-zfs-snapshots-nofpw/tps.eps) [svg](epyc/20240128-zfs-snapshots-nofpw/tps.svg)
+![epyc / 20240128-zfs-snapshots-nofpw](epyc/20240128-zfs-snapshots-nofpw/tps.svg)
+
+latencies: [eps](epyc/20240128-zfs-snapshots-nofpw/latencies.eps) [svg](epyc/20240128-zfs-snapshots-nofpw/latencies.svg)
+![epyc / 20240128-zfs-snapshots-nofpw](epyc/20240128-zfs-snapshots-nofpw/latencies.svg)
+
+| | zfs |
+|---|---|
+|tps| [eps](epyc/20240128-zfs-snapshots-nofpw/tps-zfs.eps) [svg](epyc/20240128-zfs-snapshots-nofpw/tps-zfs.svg) |
+|latency| [eps](epyc/20240128-zfs-snapshots-nofpw/latencies-zfs.eps) [svg](epyc/20240128-zfs-snapshots-nofpw/latencies-zfs.svg) |
 
