@@ -553,3 +553,33 @@ latencies: [eps](epyc/20240128-zfs-snapshots-nofpw/latencies.eps) [svg](epyc/202
 |tps| [eps](epyc/20240128-zfs-snapshots-nofpw/tps-zfs.eps) [svg](epyc/20240128-zfs-snapshots-nofpw/tps-zfs.svg) |
 |latency| [eps](epyc/20240128-zfs-snapshots-nofpw/latencies-zfs.eps) [svg](epyc/20240128-zfs-snapshots-nofpw/latencies-zfs.svg) |
 
+epyc / 20240201-raid
+=========================
+
+
+tps: [eps](epyc/20240201-raid/tps.eps) [svg](epyc/20240201-raid/tps.svg)
+![epyc / 20240201-raid](epyc/20240201-raid/tps.svg)
+
+latencies: [eps](epyc/20240201-raid/latencies.eps) [svg](epyc/20240201-raid/latencies.svg)
+![epyc / 20240201-raid](epyc/20240201-raid/latencies.svg)
+
+| | btrfs | ext4 | xfs | zfs |
+|---|---|---|---|---|
+|tps| [eps](epyc/20240201-raid/tps-btrfs.eps) [svg](epyc/20240201-raid/tps-btrfs.svg) | [eps](epyc/20240201-raid/tps-ext4.eps) [svg](epyc/20240201-raid/tps-ext4.svg) | [eps](epyc/20240201-raid/tps-xfs.eps) [svg](epyc/20240201-raid/tps-xfs.svg) | [eps](epyc/20240201-raid/tps-zfs.eps) [svg](epyc/20240201-raid/tps-zfs.svg) |
+|latency| [eps](epyc/20240201-raid/latencies-btrfs.eps) [svg](epyc/20240201-raid/latencies-btrfs.svg) | [eps](epyc/20240201-raid/latencies-ext4.eps) [svg](epyc/20240201-raid/latencies-ext4.svg) | [eps](epyc/20240201-raid/latencies-xfs.eps) [svg](epyc/20240201-raid/latencies-xfs.svg) | [eps](epyc/20240201-raid/latencies-zfs.eps) [svg](epyc/20240201-raid/latencies-zfs.svg) |
+
+epyc / 20240203-raid-lvm-snapshot
+=========================
+
+
+tps: [eps](epyc/20240203-raid-lvm-snapshot/tps.eps) [svg](epyc/20240203-raid-lvm-snapshot/tps.svg)
+![epyc / 20240203-raid-lvm-snapshot](epyc/20240203-raid-lvm-snapshot/tps.svg)
+
+latencies: [eps](epyc/20240203-raid-lvm-snapshot/latencies.eps) [svg](epyc/20240203-raid-lvm-snapshot/latencies.svg)
+![epyc / 20240203-raid-lvm-snapshot](epyc/20240203-raid-lvm-snapshot/latencies.svg)
+
+| | btrfs | ext4 | xfs |
+|---|---|---|---|
+|tps| [eps](epyc/20240203-raid-lvm-snapshot/tps-btrfs.eps) [svg](epyc/20240203-raid-lvm-snapshot/tps-btrfs.svg) | [eps](epyc/20240203-raid-lvm-snapshot/tps-ext4.eps) [svg](epyc/20240203-raid-lvm-snapshot/tps-ext4.svg) | [eps](epyc/20240203-raid-lvm-snapshot/tps-xfs.eps) [svg](epyc/20240203-raid-lvm-snapshot/tps-xfs.svg) |
+|latency| [eps](epyc/20240203-raid-lvm-snapshot/latencies-btrfs.eps) [svg](epyc/20240203-raid-lvm-snapshot/latencies-btrfs.svg) | [eps](epyc/20240203-raid-lvm-snapshot/latencies-ext4.eps) [svg](epyc/20240203-raid-lvm-snapshot/latencies-ext4.svg) | [eps](epyc/20240203-raid-lvm-snapshot/latencies-xfs.eps) [svg](epyc/20240203-raid-lvm-snapshot/latencies-xfs.svg) |
+
